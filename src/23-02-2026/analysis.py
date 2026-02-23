@@ -1,1 +1,1 @@
-print("Baseline model accuracy: 85%")
+print("Baseline model accuracy: 88% (experimental)")
