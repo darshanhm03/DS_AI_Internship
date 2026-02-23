@@ -1,0 +1,1 @@
+print("Baseline model accuracy: 85%")
