@@ -1,0 +1,13 @@
+CREATE TABLE interns (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    track TEXT,
+    stipend INTEGER
+);
+
+INSERT INTO interns (name, track, stipend) VALUES
+('Alice', 'Data Science', 15000),
+('Rahul', 'Web Dev', 12000),
+('Neha', 'Data Science', 18000),
+('Arjun', 'UI/UX', 10000),
+('Priya', 'Web Dev', 14000);
