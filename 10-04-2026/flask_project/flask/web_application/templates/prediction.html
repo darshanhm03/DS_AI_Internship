@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="card result-card">
+            <h1>🐚 Prediction Result</h1>
+            <div class="result-box">
+                <p class="result-label">Estimated Age of Abalone</p>
+                <p class="result-value">{{ age }} <span class="unit">years</span></p>
+            </div>
+            <p class="subtitle">Based on the physical measurements you provided.</p>
+            <a href="/" class="btn">← Make Another Prediction</a>
+        </div>
+    </div>
+</body>
+</html>
